@@ -1,3 +1,39 @@
 /*div {
   border: 1px solid black;
 }*/
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+/*header styling*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  align-items: center;
+  height: 3rem;
+  width: 80%;
+  margin: auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav li {
+  list-style: none;
+  margin-right: 2rem;
+}

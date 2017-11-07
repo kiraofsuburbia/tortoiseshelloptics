@@ -6,6 +6,7 @@ html {
   font-size: 18px;
   font-family: Helvetica;
   line-height: 1.4;
+  background-color: azure;
 }
 /*header styling*/
 header {
@@ -80,6 +81,7 @@ nav li {
   display: flex;
   margin-top: 9rem;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 .info h1 {
   width: 10rem;
@@ -101,3 +103,19 @@ nav li {
 .appointments {
   margin-left: 2.5%;
 }
+/*end info styling*/
+
+/*footer styling*/
+
+footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  display: flex;
+  align-items: center;
+}
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+/*end footer styling*/

@@ -1,6 +1,6 @@
-div {
+/*div {
   border: 1px solid black;
-}
+}*/
 
 html {
   font-size: 18px;
@@ -72,4 +72,32 @@ nav li {
   padding-left: 3rem;
   padding-right: 3rem;
   text-align: center;
+}
+/*end icons styling*/
+
+/*info styling*/
+.info {
+  display: flex;
+  margin-top: 9rem;
+  justify-content: center;
+}
+.info h1 {
+  width: 10rem;
+  background-color: cadetblue;
+  font-size: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.25rem;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.philosophy, .appointments {
+  width: 35%;
+}
+.philosophy {
+  margin-right: 2.5%;
+}
+.appointments {
+  margin-left: 2.5%;
 }

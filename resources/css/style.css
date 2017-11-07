@@ -5,6 +5,7 @@
 html {
   font-size: 18px;
   font-family: Helvetica;
+  line-height: 1.4;
 }
 /*header styling*/
 header {
@@ -36,4 +37,24 @@ nav {
 nav li {
   list-style: none;
   margin-right: 2rem;
+}
+/*end header styling*/
+
+/*main banner styling*/
+.main {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  height: 31rem;
+  background-size: cover;
+  background-position: -10rem 0rem;
+}
+.slogan {
+  background-color: white;
+  margin-top: 10rem;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  width: 50%;
+  float: right;
+  position: relative;
+  margin-right: 3rem;
 }
